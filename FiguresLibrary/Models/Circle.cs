@@ -17,7 +17,6 @@ namespace FiguresLibrary.Models
 
         public double CalculateArea()
         {
-            
             return Math.PI * Radius * Radius;
         }
 

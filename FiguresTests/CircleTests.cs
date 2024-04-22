@@ -19,7 +19,6 @@ namespace FiguresTests
         [InlineData(-10.35)]
         public void Constructor_ShouldThrowArgumentException_WhenRadiusLessOrEqualZero(double radius)
         {
-            
             Assert.Throws<ArgumentException>(() => _ = new Circle(radius));
         }
 

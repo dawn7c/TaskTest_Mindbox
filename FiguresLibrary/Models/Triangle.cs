@@ -1,6 +1,5 @@
 ﻿using FiguresLibrary.Abstractions;
 
-
 namespace FiguresLibrary.Models
 {
     public class Triangle : IFigure
